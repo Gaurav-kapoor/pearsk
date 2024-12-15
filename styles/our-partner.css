@@ -1,0 +1,9 @@
+.our-partner .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.our-partner .wrapper img {
+  height: 80px;
+  width: 100%;
+}/*# sourceMappingURL=our-partner.css.map */

@@ -1,0 +1,36 @@
+.get-started {
+    background-color: #5e2ced;
+padding: 60px 0;
+    .column-wrapper {
+        text-align: center;
+
+        h2 {
+            font-size: 42px;
+            color: #fff;
+        }
+
+        p {
+            font-size: 18px;
+            color: #fff;
+            margin: 12px 0 20px;
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        .column-wrapper {
+            h3 {
+                font-size: 24px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    @media only screen and (max-width: 650px) {
+        .column-wrapper {
+            h3 {
+                font-size: 20px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
